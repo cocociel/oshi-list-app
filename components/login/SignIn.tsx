@@ -11,7 +11,7 @@ export const SignIn = () => {
   const signInWithGoogle = () => {
     signInWithPopup(auth, provider).then((result) => {
       console.log(result);
-      router.push("/tasks");
+      router.push("/oshi");
     });
   };
 
