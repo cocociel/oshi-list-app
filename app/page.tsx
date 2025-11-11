@@ -1,5 +1,10 @@
+import { SignIn } from '@/components/login/SignIn';
+
 export default function Home() {
   return (
-    <p>メインです</p>
+    <>
+      <p>ようこそ！推しのリスト管理アプリへ</p>
+      <SignIn />
+    </>
   );
 }
